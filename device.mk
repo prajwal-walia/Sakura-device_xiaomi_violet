@@ -16,9 +16,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-# Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/xiaomi/violet/violet-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -470,3 +467,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Get non-open-source specific aspects
+$(call inherit-product, vendor/xiaomi/violet/violet-vendor.mk)

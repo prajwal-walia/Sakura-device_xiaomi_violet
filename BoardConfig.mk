@@ -235,4 +235,4 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 TARGET_EXCLUDES_AUDIOFX := true
 
 # Inherit from the proprietary version
--include vendor/xiaomi/violet/BoardConfigVendor.mk
+include vendor/xiaomi/violet/BoardConfigVendor.mk
