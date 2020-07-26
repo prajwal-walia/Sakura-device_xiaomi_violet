@@ -7,7 +7,10 @@
 # Inherit from violet device
 $(call inherit-product, device/xiaomi/violet/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Sakura stuff.
+SAKURA_GAPPS=true
+SAKURA_OFFICIAL := true
+
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
