@@ -10,6 +10,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common Sakura stuff.
 SAKURA_GAPPS=true
 SAKURA_OFFICIAL := true
+TARGET_GAPPS_ARCH := arm64
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
