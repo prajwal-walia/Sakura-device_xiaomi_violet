@@ -11,6 +11,8 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 SAKURA_GAPPS=true
 SAKURA_OFFICIAL := true
 TARGET_GAPPS_ARCH := arm64
+LAWNCHAIR_OPTOUT := true
+IS_PHONE := true
 
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
