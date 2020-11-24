@@ -27,6 +27,12 @@
 #
 #
 
+on boot
+
+# FPS Info
+  chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+  chmod 0660 /sys/class/drm/sde-crtc-0/measured_fps
+  
 # Smart Charging
 on boot 
 	chown system system /sys/class/power_supply/battery/charging_enabled 
