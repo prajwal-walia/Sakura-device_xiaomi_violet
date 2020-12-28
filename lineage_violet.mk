@@ -11,6 +11,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 # Inherit some common Project Sakura stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 SAKURA_OFFICIAL := true
+SAKURA_GAPPS := true
 SAKURA_MAINTAINER := Prajwal&&Nitish
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
