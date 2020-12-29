@@ -740,6 +740,25 @@ vendor/lib64/libmlipay.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
+# MotoDolbyV3
+-app/MotoDolbyV3/MotoDolbyV3.apk
+-product/priv-app/daxService/daxService.apk
+etc/permissions/com.motorola.dolby.dolbyui.features.xml
+etc/sysconfig/hiddenapi-whitelist-com.motorola.dolby.dolbyui.xml
+product/etc/permissions/com.dolby.daxservice.xml
+vendor/bin/hw/vendor.dolby.hardware.dms@1.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@1.0-service.rc
+vendor/etc/dolby/dax-default.xml
+vendor/lib/libdapparamstorage_ds1se.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@1.0.so
+vendor/lib/soundfx/libswdap_ds1se.so
+vendor/lib64/libdapparamstorage_ds1se.so
+vendor/lib64/libdlbdsservice_ds1se.so
+vendor/lib64/soundfx/libswdap_ds1se.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so
+vendor/lib64/vendor.dolby.hardware.dms@1.0.so
+
 # Perf - from davinci-user 11 RKQ1.200826.002 20.12.8 release-keys
 vendor/lib64/libqti-perfd-client.so|b6881ca5b77335490bd91c6803feb5d31cbf8e92
 vendor/lib64/vendor.qti.hardware.perf@2.0.so|3aff8833686924a414212b2a4db331168933c324
