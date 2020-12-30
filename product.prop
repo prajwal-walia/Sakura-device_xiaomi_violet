@@ -16,12 +16,12 @@ persist.data.df.dev_name=rmnet_usb0
 persist.vendor.data.profile_update=true
 
 # Device mask
-ro.build.fingerprint=google/bramble/bramble:11/RQ1A.201205.011/6966805:user/release-keys
+ro.build.fingerprint=google/redfin/redfin:11/RQ1A.201205.010/6953398:user/release-keys
 ro.product.brand=google
-ro.product.device=bramble
+ro.product.device=redfin
 ro.product.manufacturer=Google
-ro.product.model=Pixel 4a (5G)
-ro.product.name=bramble
+ro.product.model=Pixel 5
+ro.product.name=redfin
 
 # Additional Props
 ro.opa.eligible_device=true
