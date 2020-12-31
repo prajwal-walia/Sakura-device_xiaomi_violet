@@ -366,12 +366,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemovePackages
 
-# RCS
-PRODUCT_PACKAGES += \
-    com.android.ims.rcsmanager \
-    PresencePolling \
-    RcsService
-
 # RIL
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.1 \
