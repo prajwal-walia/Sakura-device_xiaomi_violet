@@ -40,7 +40,7 @@ ro.com.google.clientidbase=android-google
 ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # Graphics
-debug.sf.latch_unsignaled=1
+debug.sf.latch_unsignaled=0
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
