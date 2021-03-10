@@ -19,7 +19,7 @@ persist.data.df.dev_name=rmnet_usb0
 persist.vendor.data.profile_update=true
 
 # Device mask
-ro.build.fingerprint=google/redfin/redfin:11/RQ1A.210205.004/7038034:user/release-keys
+ro.build.fingerprint=google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys
 ro.product.brand=google
 ro.product.device=redfin
 ro.product.manufacturer=Google
