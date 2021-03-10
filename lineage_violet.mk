@@ -12,7 +12,7 @@ $(call inherit-product, device/xiaomi/violet/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 SAKURA_OFFICIAL := true
 SAKURA_BUILD_TYPE := gapps
-SAKURA_MAINTAINER := Prajwal&&Nitish
+SAKURA_MAINTAINER := spicydoughnut
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
